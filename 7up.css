@@ -1,0 +1,412 @@
+@font-face {
+    font-family: bourbon;
+    src: url(font/bourbon.woff2) format("woff2");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    background-color: rgba(174, 174, 220, 0.693);
+    width: 100%;
+   
+
+}
+.head{
+    width: 100%;
+    height: 54px;
+    background-color: #009e5f;
+    margin-top: 0;
+    display: flex;
+    position: fixed;
+}
+.logo{
+    width: 100px;
+    height: 81px;
+    background-image: url(7upimg/7up-logo-large.png);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    font-family: "Nobel";
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.ENGESP{
+    width: 100px;
+    height: 35px;
+   text-align: center;
+   padding-top: 18px;
+}
+.ENGESP h3:hover{
+    color: black;
+}
+.STORES{
+    width: 100px;
+    height: 35px;
+   text-align: center;
+   padding-top: 18px;
+}
+.STORES h3:hover{
+    color: black;
+}
+.product{
+    width: 110px;
+    height: 35px;
+    margin-left: 971px;
+   text-align: center;
+   padding-top: 18px;
+}
+.product h3:hover{
+    color: black;
+}
+.RECIPES{
+    width: 110px;
+    height: 35px;
+   text-align: center;
+   padding-top: 18px;
+
+}
+.RECIPES h3:hover{
+    color: black;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+.whitespace{
+    width: 440px;
+    background-color: #fff;
+    height:800px ;
+}
+img{
+    width:440px ;
+    height:454px ;
+    margin-top: 65px;
+}
+.refresh{
+    background-color: #fff;
+    text-align: center;
+    color: #009e5f;
+    margin-top: 70px;
+}
+button{
+    width: 150px;
+    height: 35px;
+    background: transparent ;
+    border: 3px solid  #009e5f;
+    margin-left: 140px;
+    margin-top: 20px;
+    
+
+}
+
+
+a{
+    color:#009e5f;
+
+}
+.picspace{
+    width: 1071px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.bigpic{
+    width: 1071px;
+    height: 800px;
+    margin-top: 0px;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.leftarrow{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.rightarrow{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.playbtn{
+   
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+.arrow{
+    background-color: #6ba13f;
+    width: 100%;
+    height: 30px;
+}
+.secondcondent{
+    width: 100%;
+    height: 840px;
+    background-image: url(/7upimg/7up-simple-banner.jpg);
+    background-size: cover;
+}
+
+.innercondent{
+    width: 560px;
+    height: 469px;
+    
+    
+}
+h1{
+    width: 560px;
+    height: 20px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 60px;
+    padding-top: 191px;
+    padding-left: 148px;
+}
+.innercondent p{
+    color: #fff;
+    font-family: inherit;
+    padding-top: 65px;
+    padding-left: 153px;
+    font-size: 26px;
+}
+.innercondent button{
+    width: 156px;
+    height: 51px;
+    background: #fff ;
+    border: 3px solid  #ffffff;
+    margin-left: 152px;
+    margin-top: 43px;
+    font-size: 17px;
+    font-weight: bold;
+    
+
+}
+.pink{
+    width: 100%;
+    height: 520px;
+    background-image: url(/7upimg/module_cocktail.jpg);
+    background-size: cover;
+}
+
+.pinkbutton  {
+    width: 426px;
+    height: 77px;
+    margin-left: 100px;
+    margin-left: 536px;
+    padding-top: 383px;
+   
+}
+.pinkbutton button{
+    width: 200px;
+    height: 51px;
+    background-color:#FE5887;
+    border-color: #FE5887;
+    cursor: pointer;
+
+
+}
+.pinkbutton a{
+    color: #fff;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+.green{
+    width: 100%;
+    height: 520px;
+    background-image: url(/7upimg/module_cooking.jpg);
+    background-size: cover;
+}
+.greenbutton  {
+    width: 426px;
+    height: 77px;
+    margin-left: 100px;
+    margin-left: 536px;
+    padding-top: 383px;
+   
+}
+.greenbutton button{
+    width: 200px;
+    height: 51px;
+    background-color:#6ba13f; 
+    border-color:#6ba13f ;
+    cursor: pointer;
+}
+.greenbutton a{
+    color: #fff;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+.purple{
+    width: 100%;
+    height: 520px;
+    background-image: url(/7upimg/watermelone.jpg);
+    background-size: cover;
+}
+.purplebutton  {
+    width: 426px;
+    height: 77px;
+    margin-left: 100px;
+    margin-left: 536px;
+    padding-top: 383px;
+   
+}
+.purplebutton button{
+    width: 200px;
+    height: 51px;
+    background-color:#c064ac;
+   border-color: #c064ac;
+    cursor: pointer;
+}
+.purplebutton a{
+    color: #fff;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+.lastcondent{
+    width: 100%;
+    height: 750px;
+    background-color: aquamarine;
+    display: flex;
+  
+}
+.picture{
+    width: 50%;
+    height: 750px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.tin{
+    width: 248px;
+    height: 435px;
+
+
+}
+.arrow-product{
+    width: 494px;
+    height: 176px;
+}
+.condent{
+    width: 50%;
+    height: 750px;
+    background-color: #ececec;
+}
+.drink{
+    width: 516px;
+    height: 399px;
+    
+}
+.drink h1{
+    color: #009e5f;
+    text-transform: uppercase;
+    margin: 35px 0 22px;
+    font-size: 60px;
+    font-weight: bold; 
+    padding-top: 26px;
+    padding-left: 86px;
+}
+.drink p{
+    max-width: 503px;
+    padding-top: 20px;
+    padding-top: 194px;
+    padding-left: 84px;
+    font: 400 20px/1.2 "Nobel", Helvetica, Arial, sans-serif;
+    color: #818182;
+
+}
+.painwater{
+    width: 100%;
+    height: 316px;
+    overflow: hidden;
+}
+.painwater img{
+    margin-left: 55px;
+    
+}
+.footercondent{
+    width: 100%;
+    height: 812px;
+    background-image: url(/7upimg/footer-bg.jpg);
+    background-size: cover;
+}
+.enjoy7up{
+    margin-left: 815px;
+    width: 472px;
+    margin-top: -95px;
+  
+}
+#SVGID_1_{
+    width: 100px;
+}
+.st1, .st2, .st3, .st4{
+    font-size: 38.098px;
+    font-family: 'bourbon';
+
+}
+.footer{
+    width: 1068px;
+    height: 121px;
+    background-color: rgba(255,255,255,0.75);
+    margin-top: -59px;
+    margin-left: 222px;
+}
+.social{
+    width: 244px;
+    height: 36px;
+    margin-left: 414px;
+    display: flex;
+    justify-content: space-between;
+}
+.social img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.footercenter{
+    width: 100%;
+    height: 33px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footercenter a{
+    font-size: 14px;
+    color: #636363;
+    text-decoration: none;
+}
+.footercenter:hover{
+    text-decoration-line: underline ;
+    color: #636363;
+}
+.last{
+    width: 100%;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last p{
+    font-size: 14px;
+    color: #636363;
+}
