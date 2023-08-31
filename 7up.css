@@ -26,7 +26,7 @@ body{
 .logo{
     width: 100px;
     height: 81px;
-    background-image: url(7upimg/7up-logo-large.png);
+    background-image: url(./7upimg/7up-logo-large.png);
     background-size: cover;
 }
 a{
@@ -159,7 +159,7 @@ a{
 .secondcondent{
     width: 100%;
     height: 840px;
-    background-image: url(/7upimg/7up-simple-banner.jpg);
+    background-image: url(./7upimg/7up-simple-banner.jpg);
     background-size: cover;
 }
 
@@ -200,7 +200,7 @@ h1{
 .pink{
     width: 100%;
     height: 520px;
-    background-image: url(/7upimg/module_cocktail.jpg);
+    background-image: url(./7upimg/module_cocktail.jpg);
     background-size: cover;
 }
 
@@ -230,7 +230,7 @@ h1{
 .green{
     width: 100%;
     height: 520px;
-    background-image: url(/7upimg/module_cooking.jpg);
+    background-image: url(./7upimg/module_cooking.jpg);
     background-size: cover;
 }
 .greenbutton  {
@@ -257,7 +257,7 @@ h1{
 .purple{
     width: 100%;
     height: 520px;
-    background-image: url(/7upimg/watermelone.jpg);
+    background-image: url(./7upimg/watermelone.jpg);
     background-size: cover;
 }
 .purplebutton  {
@@ -346,7 +346,7 @@ h1{
 .footercondent{
     width: 100%;
     height: 812px;
-    background-image: url(/7upimg/footer-bg.jpg);
+    background-image: url(./7upimg/footer-bg.jpg);
     background-size: cover;
 }
 .enjoy7up{
